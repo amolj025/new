@@ -17,7 +17,7 @@ st.sidebar.write('The pitfloor number is ', ip_pitfloor)
 ip_max_terminal = st.sidebar.number_input('Insert max terminal number',min_value=1, step=1,key="3")
 st.sidebar.write('The max terminal number is ', ip_max_terminal)
 
-ip_main_contactors_mode = st.sidebar.number_input('Insert main contactors',min_value=1, step=1,key="3")
+ip_main_contactors_mode = st.sidebar.number_input('Insert main contactors',min_value=1, step=1,key="4")
 st.sidebar.write('The main contactors is ', ip_main_contactors_mode)
 
    
